@@ -1,0 +1,336 @@
+* {
+  justify-content: center;
+}
+.movie-details-component {
+  display: block;
+  width: 1440px;
+  justify-content: center;
+  margin: auto;
+}
+.comp-1 {
+  display: block;
+  width: 1440px;
+  height: 1024px;
+  background-image:  url("/assets/main-page/BlackGradient.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.header {
+  display: flex;
+  width: 1440px;
+  height: 93px;
+  background-image: url("/assets/main-page/header/Rectangle1.jpg");
+}
+.header-dramatic {
+  display: flex;
+  margin: 29px 60px 15px 26px;
+}
+.header-dramatic:hover {
+  cursor: pointer;
+}
+.header-home {
+  display: flex;
+  margin: 41px 51px 28px 60px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.header-tv-show {
+  display: flex;
+  margin: 50px 37px 28px 51px;
+  justify-content: center;
+  align-items: center;
+}
+.header-tv-show p {
+  width: 100px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #A1B1CB;
+}
+.header-movies {
+  display: flex;
+  margin: 39px 37px 28px 37px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #A1B1CB;
+}
+.header-new {
+  display: flex;
+  margin: 39px 57px 28px 37px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #A1B1CB;
+}
+.header-search{
+  display: flex;
+  width: 200px;
+  height: 37px;
+  margin: 29px 5px 27px 3px;
+  background: #3B567D;
+  border-radius: 18.5px;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-search:hover {
+  cursor: pointer;
+}
+.header-search-icon {
+  display: flex;
+  width: 21px;
+  height: 21px;
+  margin: 7px 17px 9px 5px;
+}
+.header-search p {
+  margin-top: 15px;
+}
+.header-gift {
+  display: flex;
+  width: 31px;
+  height: 31px;
+  margin: 32px 20px 30px 55px;
+}
+.header-bell {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin: 32px 27px 31px 20px;
+}
+.header-profile {
+  display: flex;
+  width: 59px;
+  height: 59px;
+  margin: 17px 42px 17px 10px;
+}
+
+.comp-2 {
+  position: absolute;
+  display: flex;
+  width: 117px;
+  height: 315px;
+  margin: 125px 1355px 467px -32px;
+}
+.left-tamasha {
+  margin-left: 36px;
+  background-image: url("/assets/main-page/comp-2/left-tamasha/back.png");
+  background-repeat: no-repeat;
+}
+.my-list p {
+  margin-top: 15px;
+}
+.users-1 {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 39px 29px 30px 30px;
+}
+.lists-1 {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 37px 29px 30px 30px;
+}
+.downloads-1 {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 39px 29px 30px 30px;
+}
+.settings-1 {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 39px 29px 30px 30px;
+}
+
+.tamasha-image {
+  display: block;
+  margin: 45px 893px 32px 123px;
+}
+.info-title {
+  display: block;
+  margin: 30px 748px 30px 132px;
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.description {
+  display: block;
+  width: 560px;
+  height: 70px;
+  margin: 32px 748px 30px 132px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.main-photo {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  margin-top: 80px;
+  margin-left: 800px;
+}
+
+.main-photo img {
+  width: 500px;
+  height: auto;
+}
+
+.genre {
+  display: block;
+  width: 382px;
+  height: 44px;
+  margin: -20px 924px 18px 134px;
+}
+.genre-name {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FF2E00;
+}
+.genre-desc {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+.genre-list {
+  display: inline;
+}
+.watch a {
+  color: white;
+}
+
+.watch-my-list {
+  display: flex;
+  /*width: 338px;*/
+  /*height: 50px;*/
+  margin: 18px 972px 20px 134px;
+}
+.watch {
+  display: flex;
+  width: 158px;
+  height: 50px;
+  background: #5436A9;
+  border-radius: 30px;
+  margin-right: 21px;
+  justify-content: center;
+  align-items: center;
+}
+.watch p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.watch img {
+  width: 16px;
+  height: 16px;
+}
+.my-list {
+  display: flex;
+  width: 155px;
+  height: 50px;
+  background: #5C5C5C;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.my-list p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 15px;
+}
+.my-list img {
+  width: 16px;
+  height: 16px;
+}
+
+.rankings {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  margin: 24px 1050px 44px 134px;
+}
+
+.recommended {
+  width: 1440px;
+  height: 300px;
+  background-color: black;
+  margin-top: -230px;
+}
+.must-watch-carousel {
+  margin-left: 148px;
+  margin-right: 15px;
+  margin-top: 200px;
+  background: rgba(11, 15, 22, 0.47);
+  box-shadow: 8px -8px 10px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12.5px);
+  border-radius: 24px;
+}
+.text-white {
+  color: white;
+}
+.rowposter{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.rowimg
+{
+  max-height: 100px;
+  object-fit: contain;
+  width: 100%;
+  box-sizing: content-box;
+  transition: transform 450ms;
+  margin-right: 7px;
+}
+
+.rowimg:hover
+{
+  transform: scale(1.09);
+  cursor: pointer;
+}
+.white-space-in-between {
+  width: 1440px;
+  height: 100px;
+  background-color: black;
+  margin-top: -50px;
+}
+.largeposter{
+  max-height: 200px;
+}
+
+.rowposter::-webkit-scrollbar
+{
+  display: none;
+}
